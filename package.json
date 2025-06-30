@@ -1,0 +1,22 @@
+{
+  "name": "authtask-be",
+  "version": "1.0.0",
+  "description": "Auhentication using JWT and store user data such as name, email and location",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev":"nodemon src/app.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript",
+    "jwt"
+  ],
+  "author": "Utkarsh Ranpise",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
